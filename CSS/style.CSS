@@ -1,0 +1,155 @@
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+/*  header   */
+a:hover{
+    color: darksalmon;
+    text-decoration: dashed;
+    
+}
+
+.top-header{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.logo{
+    float: left;
+    width: 10%;
+}
+
+.top-header nav{
+    float: left;
+    width: 80%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+nav a{
+    color: gray;
+    display: inline-block;
+    width: 20%;
+    text-decoration-line: none;
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.top-header img{
+    width: 100%;
+    height: 600px;
+    box-shadow: 1px 1px 20px black;
+    margin-top: 10px;
+    
+    
+}
+
+.socialmedia{
+    float: right;
+    width: 10%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.socialmedia a{
+    float: right;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+
+.socialmedia img{
+    height: auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10%;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 10%;
+    
+}
+
+/*   contenu   */
+.gridconteneur{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.prestations{
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+   
+}
+
+.vuepresta{
+    display: inline-block;
+    width: 50%;
+    border-radius: 5px;
+    border: 10px 10px 10px solid rgba(0, 0, 0, 0.836);
+    box-shadow: 5px 5px 15px black;
+    
+}
+
+.vuepresta a{
+    overflow: hidden;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.vuepresta img{
+    width: 100%;
+    height:300px;
+    box-shadow: 5px 5px 15px black;
+    
+}
+
+
+.titreunite{
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.prestations h2{
+    margin: 20px 20px;
+    font-weight: 700;
+    font-size: .9rem;
+    line-height: 1.4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+/*   footer   */
+footer{
+    text-align: right;
+    border: 1.5px solid darksalmon;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 20px;
+}
+
+
+
+
+footer p{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+
+
